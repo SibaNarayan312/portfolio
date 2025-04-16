@@ -1,0 +1,249 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: black;
+    color: aliceblue;
+    padding: 20px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+    padding: 20px;
+    border: 5px solid rgb(97, 100, 99);
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.text {
+    flex: 1;
+    text-align: center;
+}
+
+h1 {
+    font-size: 80px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    display: block;
+    text-align: center;
+    margin: 0 auto;
+}
+
+p {
+    font-size: 18px;
+    line-height: 1.5;
+    max-width: 1000px;
+    display: block;
+    text-align: center;
+    margin: 0 auto;
+    padding: 30px;
+}
+
+.image-container {
+    flex-shrink: 0;
+}
+
+img {
+    width: 250px;
+    height: auto;
+    border-radius: 10px;
+}
+
+span {
+    display: block;
+    text-align: center;
+    margin: 0 auto;
+    padding: 10px;
+}
+
+.skills-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    justify-content: flex-start;
+    max-width: 800px;
+    margin: auto;
+    margin-top: 30px;
+}
+
+.skill-box {
+    background-color: rgb(50, 50, 50);
+    color: white;
+    padding: 10px 15px;
+    border-radius: 8px;
+    font-weight: bold;
+    font-size: 14px;
+    display: inline-block;
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+}
+
+.skill-box:hover {
+    background-color: rgb(70, 70, 70);
+}
+
+.container2 {
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+    padding: 20px;
+    border: 5px solid rgb(97, 100, 99);
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.container2a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+    padding: 20px;
+    border: 2px solid rgb(97, 100, 99);
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.container2 p {
+    display: block;
+    text-align: center;
+}
+
+.container2 span {
+    font-size: 30px;
+}
+
+.container2a img {
+    width: 100px;
+    height: auto;
+    background-color: #fff;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    max-width: 1000vw;
+    margin: auto;
+    height: 100px;
+}
+
+nav a {
+    font-size: 20px;
+    background-color: black;
+    color: aliceblue;
+    margin-left: 20px;
+    font-weight: bolder;
+    border: none;
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+}
+
+nav a:hover {
+    text-decoration:double;
+}
+
+.dark-mode-btn{
+    background: none;
+    border: none;
+    font-size: 24px;
+    cursor: pointer;
+    padding-left: 700px;
+}
+
+hr {
+    background-color: aliceblue;
+}
+
+.container3 {
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+    padding: 20px;
+    border: 5px solid rgb(97, 100, 99);
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.container3 span {
+    font-size: 30px;
+}
+
+.icon-button {
+    background-color: rgba(255, 255, 255, 0.5); 
+    border: 1px solid #fff; 
+    border-radius: 20px; 
+    padding: 10px; 
+    width: 50px; 
+    height: 50px; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer; 
+    transition: border 0.3s; 
+    color: white;
+}
+
+.icon-button:hover {
+    border: 5px solid white; 
+}
+
+.button-container {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-top: 15px;
+}
+
+/* Light Mode Support */
+body.light-mode {
+    background-color: white;
+    color: black;
+}
+
+body.light-mode nav a {
+    background-color: white;
+    color: black;
+}
+
+body.light-mode .container,
+body.light-mode .container2,
+body.light-mode .container2a,
+body.light-mode .container3 {
+    background-color: white;
+    border-color: rgb(180, 180, 180);
+}
+
+body.light-mode .skill-box {
+    background-color: #e0e0e0;
+    color: black;
+}
+
+body.light-mode .skill-box:hover {
+    background-color: #cfcfcf;
+}
+
+body.light-mode hr {
+    background-color: black;
+}
+
+body.light-mode .icon-button {
+    background-color: rgba(0, 0, 0, 0.1);
+    border-color: black;
+}
+
+body.light-mode .icon-button:hover {
+    border: 5px solid black;
+}
+
+
