@@ -247,3 +247,120 @@ body.light-mode .icon-button:hover {
 }
 
 
+@media screen and (max-width: 1024px) {
+    .container {
+        flex-direction: column;
+        text-align: center;
+    }
+    
+    .image-container img {
+        width: 200px;
+    }
+    
+    .skills-container {
+        justify-content: center;
+    }
+    
+    .dark-mode-btn {
+        padding-left: 20px; 
+    }
+}
+
+@media screen and (max-width: 768px) {
+    body {
+        padding: 10px;
+    }
+
+    h1 {
+        font-size: 40px; 
+    }
+
+    p {
+        font-size: 16px;
+        padding: 15px;
+    }
+
+    .container {
+        flex-direction: column;
+        padding: 15px;
+    }
+
+    .skills-container {
+        flex-wrap: wrap;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .skill-box {
+        padding: 8px 12px;
+        font-size: 12px;
+    }
+
+    .container2, .container3 {
+        padding: 15px;
+    }
+
+    .container2a {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .container2a img {
+        width: 80px;
+    }
+
+    nav {
+        flex-direction: column;
+        text-align: center;
+        height: auto;
+    }
+
+    nav a {
+        font-size: 18px;
+        margin: 10px 0;
+    }
+
+    .dark-mode-btn {
+        font-size: 20px;
+        padding-left: 0px; 
+    }
+
+    .icon-button {
+        width: 40px;
+        height: 40px;
+        padding: 8px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    h1 {
+        font-size: 32px;
+    }
+
+    .skills-container {
+        gap: 5px;
+    }
+
+    .skill-box {
+        font-size: 10px;
+        padding: 5px 8px;
+    }
+
+    .button-container {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .icon-button {
+        width: 35px;
+        height: 35px;
+        padding: 6px;
+    }
+
+    .dark-mode-btn {
+        font-size: 18px;
+    }
+}
+
+
+
